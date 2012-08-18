@@ -24,7 +24,6 @@ module CarrierWave
   #     end
   #
   module MimeTypes
-    extend ActiveSupport::Concern
 
     module ClassMethods
       def set_content_type(override=false)
