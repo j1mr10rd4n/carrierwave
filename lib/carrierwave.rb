@@ -30,6 +30,7 @@ module CarrierWave
   autoload :SanitizedFile, 'carrierwave/sanitized_file'
   autoload :Mount, 'carrierwave/mount'
   autoload :RMagick, 'carrierwave/processing/rmagick'
+  autoload :MimeTypes, 'carrierwave/processing/mime_types'
   autoload :ImageScience, 'carrierwave/processing/image_science'
   autoload :MiniMagick, 'carrierwave/processing/mini_magick'
 
